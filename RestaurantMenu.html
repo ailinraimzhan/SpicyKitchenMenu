@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpicyKitchen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop playsinline id="myVideo">
+        <source src="videoramen.mp4" type="video/mp4">
+    </video>
+    <header>
+        <div class="parent-logo">
+            <img src="SpicyKtchenLogo.png" alt="SpicyKitchen" width="100" id="img-logo">
+        </div>
+        <h1>SpicyKitchen</h1>
+        <nav class="nav">
+            <a class="item start" href="#Menu">Menu</a>
+            <a class="item" href="#Drinks">Drinks</a>
+            <a class="item" href="#Desserts">Desserts</a>
+            <a class="item" href="#Order-Form">Order-Form</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Menu">
+            <h2>MENU</h2>
+
+            <div class="parent">
+                <article class="article">
+                    <img src="ramen.png" alt="ramen" width="300">
+                    <h3>Ramen</h3>
+                    <p>Tasty Yummy Ramen long noodles with egg <br> and seaweed meat if needed</p>
+                    <del>$25</del>
+                    <ins>$15</ins>
+                </article>
+
+                <article class="article">
+                    <img src="dumplings.png" alt="dumplings" width="300">
+                    <h3>Dumplings</h3>
+                    <p>A yummy Dumpling with sour cream if <br> you want little bit of green onions</p>
+                    <del>1 for $5</del>
+                    <ins>1 for $2</ins>
+                </article>
+
+                <article class="article">
+                    <img src="Kimbap.png" alt="kimbap" width="300">
+                    <h3>KimBap</h3>
+                    <p>KimBap its with rice seafood or meat <br> too vegetables covered up with seaweed </p>
+                    <del>1 for $6</del>
+                    <ins>1 for $3</ins>
+                </article>
+            </div>
+        </section>
+        
+        <section id="Drinks">
+            <h2>Drinks</h2>
+
+            <div class="parent">
+                <article class="article">
+                    <img src="bubble tea.png" alt="bubble tea" width="300">
+                    <h3>Bubble Tea</h3>
+                    <p>Different types of bubble tea like strawberry brown sugar <br> milk tea or watermelon all of them sounds Yum</p>
+                    <del>$10</del>
+                    <ins>$6</ins>
+                </article>
+
+                <article class="article">
+                    <img src="Fanta.png" alt="fanta" width="300">
+                    <h3>Fanta</h3>
+                    <p>Fanta also different types <br> tasty and looks very pretty</p>
+                    <del>$12</del>
+                    <ins>$7</ins>
+                </article>
+
+                <article class="article">
+                    <img src="Water.png" alt="water" width="300">
+                    <h3>Water</h3>
+                    <p>Water theres normal also theres different <br> flavored of water and looking fun</p>
+                    <del>$10</del>
+                    <ins>$6</ins>
+                </article>
+            </div>
+        </section>
+
+        <section id="Desserts">
+            <h2>Desserts</h2>
+
+            <div class="parent">
+                <article class="article">
+                    <img src="macaroon.png" alt="macarons" width="300">
+                    <h3>Macarons</h3>
+                    <p>Macarons different styles colors and taste yummy</p>
+                    <del>1 for $4</del>
+                    <ins>1 for $2</ins>
+                </article>
+
+                <article class="article">
+                    <img src="cake.png" alt="cake" width="300">
+                    <h3>Cake</h3>
+                    <p>A cake styled really fancy with flowers chocolate vanilla with some fruits</p>
+                    <del>$30</del>
+                    <ins>$15</ins>
+                </article>
+
+                <article class="article">
+                    <img src="icecream.png" alt="icecream" width="300">
+                    <h3>Icecream</h3>
+                    <p>icecream different flavors like strawberry chocolate or vanilla</p>
+                    <del>$16</del>
+                    <ins>$8</ins>
+                </article>
+            </div>
+            
+        </section>
+
+        <section id="Order-Form"> 
+            <h2>Place Your Order</h2>
+            <form>
+                <div class="parent parent-border">
+                    <div>
+                        <label>Ramen</label>
+                        <input type="number" min="1" max="50">
+                        <br>
+                        <label>What level of Spice</label>
+                        <select>
+                            <option>Spicy</option>
+                            <option>Medium</option>
+                            <option>Not Spicy</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Dumpling</label>
+                        <input type="number" min="1" max="50">
+                        <br>
+                        <label>What level of Spice</label>
+                        <select>
+                            <option>Spicy</option>
+                            <option>Medium</option>
+                            <option>Not Spicy</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>KimBap</label>
+                        <input type="number" min="1" max="50">
+                        <br>
+                        <label>Ingredients</label>
+                        <br>
+                        <input type="checkbox"> Cooked Rice
+                        <br>
+                        <input type="checkbox"> Seeweed
+                        <br>
+                        <input type="checkbox"> Egg
+                        <br>
+                        <input type="checkbox"> Carrots
+                        <br>
+                        <input type="checkbox"> Cucumber
+                        <br>
+                        <input type="checkbox"> Fish
+                        <br>
+                        <input type="checkbox"> Beef
+                        <br>
+                        <input type="checkbox"> Tuna
+                        <br>
+                        <input type="checkbox"> Crab Sticks
+                        <br>
+                        <input type="checkbox"> Spinach
+                        <br>
+                        <input type="checkbox"> Radish
+                        <br>
+                        <input type="checkbox"> Salt
+                        <br>
+                        <input type="checkbox"> Sesame oil
+                        <br>
+                        <input type="checkbox"> Spicy sauce
+                        <br>
+                        <input type="checkbox"> All
+                    </div>
+                </div>
+
+                <div class="parent parent-border">
+                    <div>
+                        <label>Bubble Tea</label>
+                        <input type="number" min="1" max="30">
+                        <br>
+                        <label>Which size do you want?</label>
+                        <select>
+                            <option>Large</option>
+                            <option>Medium</option>
+                            <option>Small</option>
+                        </select>
+                        <br>
+                        <label>Flavor</label>
+                        <br>
+                        <input type="checkbox"> Strawberry 
+                        <br>
+                        <input type="checkbox"> Watermelon
+                        <br>
+                        <input type="checkbox"> Mango
+                        <br>
+                        <input type="checkbox"> Brown sugar milk tea
+                        <br>
+                        <input type="checkbox"> Chocolate milk tea
+                        <br>
+                        <input type="checkbox"> Matcha
+                        <br>
+                        <input type="checkbox"> BlueBerry
+                        <br>
+                        <input type="checkbox"> HoneyDew
+                        <br>
+                        <input type="checkbox"> Avocado
+                        <br>
+                        <input type="checkbox"> Taro milk tea
+                    </div>
+                    <div>
+                        <label>Fanta</label>
+                        <input type="number" min="1" max="50">
+                        <br>
+                        <label>Flavor</label>
+                        <br>
+                        <input type="checkbox"> Strawberry 
+                        <br>
+                        <input type="checkbox"> Orange
+                        <br>
+                        <input type="checkbox"> Mango
+                        <br>
+                        <input type="checkbox"> Rasberry
+                        <br>
+                        <input type="checkbox"> Grape 
+                        <br>
+                        <input type="checkbox"> Orange
+                        <br>
+                        <input type="checkbox"> BlueBerry
+                        <br>
+                        <input type="checkbox"> Lemon
+                        <br>
+                        <input type="checkbox"> Apple
+                        <br>
+                        <input type="checkbox"> Lime
+                    </div>
+                    <div>
+                        <label>Water</label>
+                        <input type="number" min="1" max="50">
+                        <br>
+                        <input type="radio" name="option"> Water
+                        <br>
+                        <input type="radio" name="option"> Sparkling Water
+                        <br>
+                        <input type="radio" name="option"> Mineral Water
+                    </div>
+                </div>
+
+                <div class="parent parent-border">
+                    <div>
+                        <label>Macarons</label>
+                        <input type="number" min="1" max="50">
+                        <br>
+                        <label>Colors and Flavors</label>
+                        <br>
+                        <input type="checkbox"> Yellow-lemon
+                        <br>
+                        <input type="checkbox"> Pink-strawberyy
+                        <br>
+                        <input type="checkbox"> Green-matcha
+                        <br>
+                        <input type="checkbox"> Brown-chocolate
+                        <br>
+                        <input type="checkbox"> Purple-grape
+                        <br>
+                        <input type="checkbox"> Blue-blueberry
+                        <br>
+                        <input type="checkbox"> White-vanilla
+                    </div>
+                    <div>
+                        <label>Cake</label>
+                        <input type="number" min="1" max="50">
+                        <br>
+                        <label>What size do you want</label>
+                        <select>
+                            <option>Large</option>
+                            <option>Medium</option>
+                            <option>Small</option>
+                        </select>
+                        <br>
+                        <label>Flavors</label>
+                        <br>
+                        <input type="checkbox"> Chocolate
+                        <br>
+                        <input type="checkbox"> Vanilla
+                        <br>
+                        <input type="checkbox"> Strawberry
+                        <br>
+                        <input type="checkbox"> Banana
+                        <br>
+                        <input type="checkbox"> Carrot
+                        <br>
+                        <label>Toppings</label>
+                        <br>
+                        <input type="checkbox"> Strawberry
+                        <br>
+                        <input type="checkbox"> Raspberry
+                        <br>
+                        <input type="checkbox">  Blueberry
+                        <br>
+                        <input type="checkbox"> Mango
+                        <br>
+                        <input type="checkbox"> Apple
+                        <br>
+                        <input type="checkbox"> Banana
+                        <br>
+                        <input type="checkbox"> Orange
+                        <br>
+                        <input type="checkbox"> Pineapple
+                        <br>
+                        <input type="checkbox"> Kiwi
+                        <br>
+                        <input type="checkbox"> Rasberry
+                        <br>
+                        <input type="checkbox"> Candy Rose
+                        <br>
+                        <input type="checkbox"> Chocolate chip
+                    </div>
+                    <div>
+                        <label>Icecream</label>
+                        <input type="number" min="1" max="50">
+                        <br>
+                        <label>Flavors</label>
+                        <br>
+                        <input type="radio"> Vanilla
+                        <br>
+                        <input type="radio"> Chocolate
+                        <br>
+                        <input type="radio"> Strawberry
+                        <br>
+                        <input type="radio"> Chocolate chip
+                        <br>
+                        <input type="radio"> Cookies and cream
+                        <br>
+                        <input type="radio"> Bubble gum
+                        <br>
+                        <input type="radio"> Mango 
+                        <br>
+                        <input type="radio"> Vannila Caramel
+                        <br>
+                        <input type="radio"> Caramel
+                        <br>
+                        <input type="radio"> Blue Berry
+                    </div>
+                </div>
+                <div class="parent parent-border">
+                    <label>Sides</label>
+                    <br>
+                    <input type="radio" name="option"> Salad with letuces and cucumber mayo 
+                    <br>
+                    <input type="radio" name="option"> Bread
+                    <br>
+                    <input type="radio" name="option"> Chocolate Chip cookie
+                    <br>
+                    <label>Add-ons</label>
+                    <br>
+                    <input type="checkbox"> Extra Egg
+                    <br>
+                    <input type="checkbox"> Extra Popping Boba
+                    <br>
+                    <input type="checkbox"> Extra Fruits on Cake
+                    <br>
+                </div>
+                <div class="requests">
+                    <label>Special requests</label>
+                    <br>
+                    <textarea rows="7" cols="42"></textarea>
+                    <br>
+                </div>
+                <input type="submit" value="Go To Checkout" class="submit-button">
+            </form>
+        </section>
+
+        <footer>
+            <p>Copyright© Made with love by AilinR!</p>
+        </footer>
+    </main>
+</body>
+</html>
